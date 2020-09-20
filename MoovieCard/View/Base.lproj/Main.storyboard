@@ -22,6 +22,7 @@
                                     <constraint firstAttribute="height" constant="100" id="5W4-Dy-Esd"/>
                                     <constraint firstAttribute="width" constant="100" id="FRA-3u-RMH"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Show films"/>
                                 <connections>
                                     <action selector="didTapButton" destination="Rlz-BJ-uek" eventType="touchUpInside" id="kSX-x6-P5E"/>
@@ -35,6 +36,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2bI-Zj-QPT"/>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="eKr-Yz-WD7" id="TPk-3t-4dt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9np-PL-j3Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
