@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rlz-BJ-uek">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="WPB-oR-TcW">
+            <objects>
+                <viewController id="Rlz-BJ-uek" customClass="ViewController" customModule="MoovieCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TEJ-Xu-yTe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKr-Yz-WD7">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5W4-Dy-Esd"/>
+                                    <constraint firstAttribute="width" constant="100" id="FRA-3u-RMH"/>
+                                </constraints>
+                                <state key="normal" title="Show films"/>
+                                <connections>
+                                    <action selector="didTapButton" destination="Rlz-BJ-uek" eventType="touchUpInside" id="kSX-x6-P5E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eKr-Yz-WD7" firstAttribute="centerY" secondItem="TEJ-Xu-yTe" secondAttribute="centerY" id="9Gu-cI-mb6"/>
+                            <constraint firstItem="eKr-Yz-WD7" firstAttribute="centerX" secondItem="TEJ-Xu-yTe" secondAttribute="centerX" id="nKf-kT-WS9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2bI-Zj-QPT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9np-PL-j3Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-415.94202898550731" y="-288.61607142857139"/>
+        </scene>
+    </scenes>
+</document>
